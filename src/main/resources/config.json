@@ -1,0 +1,8 @@
+{
+  "AppType" : "PUBLIC",
+  "UserAgent": "Your-App-Name",
+  "ConsumerKey" : "YourConsumerKey",
+  "ConsumerSecret" : "YourConsumerSecret",
+  "CallbackBaseUrl" : "http://localhost:8080",
+  "CallbackPath" : "/CallbackServlet"
+}

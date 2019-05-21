@@ -1,9 +1,9 @@
 # Xero-Java
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.github.xeroapi/xero-java.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.github.xeroapi%22%20AND%20a:%22xero-java%22)
 
-This is the official Java SDK for Xero's API. It supports accounting, fixed asset and bank feed API endpoints. All third party libraries dependencies managed with Maven.
-
+This is the fork for the Getting Started with Xero with the Java SDK. 
+Changes to the main repo are the invoice summary servlet, chart.html and added the config.json file
+This was run on glassfish 4 with IntelliJ
 
 ## Migrating from version 1.0 to 2.0 of SDK
 We've made some big changes to our Java SDK with version 2.0.  All code examples in this README are for version 2.0.  We've archived [code samples for version 1.0 here](https://github.com/XeroAPI/Xero-Java/tree/master/example).
