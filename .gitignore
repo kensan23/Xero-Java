@@ -1,10 +1,10 @@
 /target/
-/src/main/resources/
+/src/main/resources/*
 .classpath
 .project
 .settings
 .DS_Store
-
+!/src/main/resources/config.json
 ### Eclipse template
 
 .metadata
