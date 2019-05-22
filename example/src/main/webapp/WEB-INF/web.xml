@@ -24,7 +24,15 @@
 		<servlet-name>RequestResourceServlet</servlet-name>
 		<servlet-class>com.xero.example.RequestResourceServlet</servlet-class>
 	</servlet>
-	<servlet-mapping>
+    <servlet>
+        <servlet-name>InvoiceSummaryServlet</servlet-name>
+        <servlet-class>com.xero.example.InvoiceSummaryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InvoiceSummaryServlet</servlet-name>
+        <url-pattern>/InvoiceSummaryServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
 		<servlet-name>CallbackServlet</servlet-name>
 		<url-pattern>/CallbackServlet</url-pattern>
 	</servlet-mapping>
